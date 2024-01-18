@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Movie Reviews</title>
+        <title>Movie/Series Reviews</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <link rel="shortcut icon" href="pfp.jpg" />
     </head>
     <body>
-        <div id="header" class="main"><h1>Movie Reviews</h1></div>
+        <div id="header" class="main">
+            <h1>Movie and Series Reviews</h1>            
+        </div>
+        <br>
+        <div id = "search" class="main">
+            <input id="searchbar"
+                onkeyup="search_movie()"
+                type="text" name="search"
+                placeholder="Search movies or series..">
+            <ul id='list'>
+                <li class="movies"></li>
+                <li class="movies">Dog</li>
+                <li class="movies">Elephant</li>
+                <li class="movies">Fish</li>
+                <li class="movies">Gorilla</li>
+                <li class="movies">Monkey</li>
+                <li class="movies">Turtle</li>
+                <li class="movies">Whale</li>
+                <li class="movies">Alligator</li>
+                <li class="movies">Donkey</li>
+                <li class="movies">Horse</li>
+            </ul>
+            </div>
         <br>
         <div id="content" class="main"><h2>x</h2></div>
+        <br>
+        <div class="main">
+            
+        </div>
     </body>
+    <script src="script.js"></script>
 </html>

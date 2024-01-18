@@ -1,3 +1,8 @@
+#search {
+    justify-content: center;
+    display: flex;
+}
+
 #header {
     border-radius: 15px;
     border: 2px solid;
@@ -8,5 +13,5 @@
 .main {
     border-radius: 15px;
     border: 2px solid;
-    display: flex;
 }
+
